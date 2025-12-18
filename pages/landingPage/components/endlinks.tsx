@@ -11,7 +11,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const Endlinks = () => (
     <>
         <div className="flex flex-col py-10  bg-[#000000]">
-            <div className="flex flex-row gap-36 mx-16 ">
+            <div className="flex flex-row gap-36 mx-17 ">
                 <div className="flex flex-col justify-end w-64 ">
                     <div className="flex flex-row gap-2 justify-start items-center h-20">
                         <div className=" text-4xl text-[#C3E92D]"><FaRunning /></div>
