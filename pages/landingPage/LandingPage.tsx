@@ -8,6 +8,7 @@ import Events from "./components/events"
 import Course from "./components/course"
 import Stying from "./components/stying"
 import Endlinks from "./components/endlinks"
+import Template from "./components/template"
 import { Links } from "react-router-dom"
 const LandingPage = () => {
     return (
@@ -22,6 +23,7 @@ const LandingPage = () => {
             <Course />
             <Stying />
             <Endlinks />
+            {/* <Template /> */}
         </>
     )
 }

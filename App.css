@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 5rem;
@@ -42,4 +42,12 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.clip-box {
+  clip-path: polygon(0px 0px, 90% 0px, 100% 25%, 70% 100%, 0px 100%);
+}
+
+.clip-child-box {
+  clip-path: polygon(0px 0px, 90% 0px, 100% 14%, 86% 100%, 0px 100%);
 }
